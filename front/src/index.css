@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Montserrat Arabic';
+    src: url('./assets/font/Montserrat-Arabic/Montserrat-Arabic_Bold_700.otf') format('opentype');
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+.custom-dark-shadow {
+  box-shadow: 0 4px 15px rgba(5, 0, 26, 0.9);
+}
